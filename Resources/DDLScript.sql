@@ -58,3 +58,13 @@ create table tracks
 	length			int,
 	city_id			int
 );
+
+create table tracklines
+(
+	id	int,
+	section_id	int,
+	line_id		int,
+	created_at	date,
+	updated_at	date,
+	city_id		int
+);
